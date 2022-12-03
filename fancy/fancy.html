@@ -1,1 +1,37 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="fancy.js"></script> 
+    <title>Fancify Shamcify</title>
+</head>
+    <body>
+        <h1>Fancify my Text</h1>		
+        <fieldset>
+            <legend>Text</legend>        
+            <div></div>
+                <label for="text">
+                    <textarea id="fancify" rows="4" cols="30" placeholder="enter your plain jane text here"></textarea>
+                </label>
+            </div>
+        </fieldset>
+        <!-- Your UI controls go here -->
+        <fieldset>
+            <legend>Fancify</legend>
+            <div>
+                <input type="button" value="Bigger" id="masgrande" onclick="masGrande()" />
+                <label for="masgrande">Mas Grande!</label>
+                
+                <input type="radio" id="fancy" name="toggle" onchange="toggle()" />
+                <label for="fancy">FancyShmancy</label>                
+                <input type="radio" id="plain" name="toggle" onchange="toggle()" checked />
+                <label for="plain">BoringBetty</label>
+                
+                <input type="button" value="Moo" onclick="moo()" />
+                <label for="moo">Moo</label>
+            </div>
+        </fieldset>           
+    </body>
+</html>
