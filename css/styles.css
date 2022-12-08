@@ -4,7 +4,7 @@ body {
 
 hr {
     border-style:none;
-    border-top-style: solid;
+    border-top-style:solid;
     border-width: 10px;
     text-align: center;    
 }
