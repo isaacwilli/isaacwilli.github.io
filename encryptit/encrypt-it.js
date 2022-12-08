@@ -19,6 +19,7 @@
     // Note: In this function, we usually want to set up our event handlers
     // for UI elements on the page.
     document.getElementById("encrypt-it").addEventListener('click', handleClick );
+    document.getElementById("reset").addEventListener('click', resetClick);
   }
 
   function handleClick() {
@@ -37,6 +38,11 @@
       else encrypted += letter;
     }
     document.getElementById('result').textContent = encrypted;  
+  }
+  
+  function resetClick(){
+    document.getElementById('input-text').value = '';
+    document.getElementById('result').textContent = ''; 
   }
   // Add any other functions in this area (you should not implement your
   // entire program in the init function, for similar reasons that
