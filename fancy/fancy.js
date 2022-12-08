@@ -11,8 +11,8 @@ const toggle = () => {
         document.getElementById("fancify").style.textDecoration = "underline";
     }
     else {
-        document.getElementById("fancify").style.fontWeight = "normal"
-        document.getElementById("fancify").style.color = "black"
+        document.getElementById("fancify").style.fontWeight = "normal";
+        document.getElementById("fancify").style.color = "black";
         document.getElementById("fancify").style.textDecoration = "none";
     }
 }
